@@ -3,9 +3,64 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>carminegallina.github.io</title>
+    <title>Photo Grid Planner</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Arial, sans-serif;
+        background: #0b0d12;
+        color: #f4efe6;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      main {
+        width: min(440px, 100%);
+      }
+
+      h1 {
+        font-size: 30px;
+        margin: 0 0 10px;
+      }
+
+      p {
+        color: #b8b1a7;
+        line-height: 1.5;
+        margin: 0 0 24px;
+      }
+
+      a {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 18px;
+        border-radius: 999px;
+        background: #e9d8b7;
+        color: #1d140b;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      small {
+        display: block;
+        margin-top: 14px;
+        color: #827c75;
+      }
+    </style>
   </head>
   <body>
-    <p>GitHub Pages root for Photo Grid Planner Android App Links.</p>
+    <main>
+      <h1>Photo Grid Planner</h1>
+      <p>APK debug Android pronto per installazione manuale.</p>
+      <a href="./downloads/PhotoGridPlanner-debug.apk" download>Scarica APK</a>
+      <small>Se Android blocca l'installazione, abilita l'installazione da browser/file manager.</small>
+    </main>
   </body>
 </html>
